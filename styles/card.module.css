@@ -1,0 +1,267 @@
+
+@media screen and (max-width: 500px) {
+  .colFlex2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: 37.179vw;
+
+    /* background-color: #d9d9d9; */
+    border: black solid 0.5px;
+
+    border-radius: 5.128vw;
+  }
+
+  .forImage {
+    border-top-left-radius: 3.333vw;
+    border-top-right-radius: 3.333vw;
+    width: 100%;
+    height: 40.021vw;
+  }
+  .Valuation {
+    position: absolute;
+    text-align: center;
+    margin-top: 3vw;
+    margin-left: 1.738vw;
+    padding: 1.3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+    border-radius: 5.128vw;
+    color: white;
+    background-color: #432cce;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.551vw;
+    line-height: 10px;
+  }
+
+  .headPtext {
+    text-align: left;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.846vw;
+    line-height: 4.615vw;
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+    /* identical to box height */
+
+    color: #383838;
+  }
+
+  .pText {
+    text-align: left;
+    margin-left: 2vw;
+    padding-right: 2.5vw;
+    padding-bottom: 1.5vw;
+    margin-top: 0.3vw;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.333vw;
+    line-height: 4.103vw;
+
+    color: #000000;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    height: 1em;
+    overflow: hidden;
+  }
+
+
+  /* Pagination starts here*/
+
+  .pageLink {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.8);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3.155vw;
+
+    min-width: 5em;
+    border-radius: 7.23vw;
+    border: none;
+  }
+
+  .pageLink1 {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.425);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+    justify-content: center;
+
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.155vw;
+
+    min-width: 5em;
+    border-radius: 7.23vw;
+    border: none;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .colFlex2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    width: 15.323vw;
+
+    background-color: #d9d9d9;
+    border: black dashed 0.5px;
+    border-radius: 1.323vw;
+  }
+
+  .forImage {
+    border-top-left-radius: 1.323vw;
+    border-top-right-radius: 1.323vw;
+    width: 100%;
+    height: 15.021vw;
+  }
+
+  .Valuation {
+    position: absolute;
+    text-align: center;
+    margin-top: 1.4em;
+    margin-left: 1em;
+    padding: 0.4em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.894vw;
+    line-height: 0.926vw;
+
+    border-radius: 1.323vw;
+    color: white;
+    background-color: #432cce;
+  }
+
+  .headPtext {
+    text-align: left;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    margin-top: 0.5em;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.323vw;
+    line-height: 1.587vw;
+
+    color: #383838;
+  }
+
+  .pText {
+    text-align: left;
+    margin-left: 0.9em;
+    padding-right: 1.2em;
+    margin-bottom: 1em;
+    margin-top: 0.7em;
+
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 1.058vw;
+    line-height: 1.323vw;
+    overflow: hidden;
+
+    color: #000000;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    width: 100%;
+    height: 4em;
+    /* overflow: hidden;  */
+  }
+
+  /* Pagination starts here*/
+
+  .pageLink {
+    color: white;
+    background-color: rgba(67, 44, 206, 0.8);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.085vw;
+
+    min-width: 5em;
+    border-radius: 1.23vw;
+    border: none;
+  }
+
+  .pageLink1 {
+    color: white;
+    background-color: rgba(68, 44, 206, 0.425);
+    padding: 0.4em;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    margin: 1.5em;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.085vw;
+
+    min-width: 5em;
+    border-radius: 1.23vw;
+    border: none;
+  }
+}
+
+.colFlex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.forButton {
+  border: none;
+}
+
+.forButton:hover {
+  border: none;
+  transform: scale(1.05);
+}
+
+.rowFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  width: 80%;
+}
+
+/* Pagination Styling Starts here */
+
+.paginationComp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4%;
+}
